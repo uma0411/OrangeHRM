@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM">
+	<!--<test thread-count="5" name="OrangeHRM">
+		<groups>
+			<define name="Demo">
+			<include name="EntitleMents"></include></define>
+			<run>
+				<include name="Demo"></include>
+			</run>
+		</groups>
+	
+	</test>	-->
+	<test thread-count="5" name="OrangeHRMclasses">
+		<classes>
+			<class name="tests.OrangeHRM.ORM_Time_Test" />
+			<class name="tests.OrangeHRM.ORM_Leave_Test" />
+		</classes>
+	</test>
+
+</suite>

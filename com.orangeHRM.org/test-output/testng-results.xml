@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Title of the Navigated Page :OrangeHRM]]>
+    </line>
+    <line>
+      <![CDATA[Validation Is completed Successfully.......<a href='C:\Users\su21260\Tasks_Dec2022\com.orangeHRM.org\.\Screenshot\WedJan25155246IST2023.png' target=_blank'>clickhere</a>]]>
+    </line>
+    <line>
+      <![CDATA[orange hrm login sucessfully completed]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27961" started-at="2023-01-25T15:52:23 IST" finished-at="2023-01-25T15:52:51 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27961" started-at="2023-01-25T15:52:23 IST" finished-at="2023-01-25T15:52:51 IST">
+      <class name="tests.OrangeHRM.ORM_Time_Test">
+        <test-method status="PASS" signature="browserinvoke()[pri:0, instance:tests.OrangeHRM.ORM_Time_Test@e720b71]" name="browserinvoke" is-config="true" duration-ms="22672" started-at="2023-01-25T15:52:23 IST" finished-at="2023-01-25T15:52:46 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Title of the Navigated Page :OrangeHRM]]>
+            </line>
+            <line>
+              <![CDATA[Validation Is completed Successfully.......<a href='C:\Users\su21260\Tasks_Dec2022\com.orangeHRM.org\.\Screenshot\WedJan25155246IST2023.png' target=_blank'>clickhere</a>]]>
+            </line>
+            <line>
+              <![CDATA[orange hrm login sucessfully completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- browserinvoke -->
+        <test-method status="PASS" signature="time()[pri:0, instance:tests.OrangeHRM.ORM_Time_Test@e720b71]" name="time" duration-ms="4508" started-at="2023-01-25T15:52:46 IST" finished-at="2023-01-25T15:52:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- time -->
+        <test-method status="PASS" signature="employeename()[pri:1, instance:tests.OrangeHRM.ORM_Time_Test@e720b71]" name="employeename" duration-ms="1" started-at="2023-01-25T15:52:50 IST" finished-at="2023-01-25T15:52:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- employeename -->
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:tests.OrangeHRM.ORM_Time_Test@e720b71]" name="closebrowser" is-config="true" duration-ms="748" started-at="2023-01-25T15:52:50 IST" finished-at="2023-01-25T15:52:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- tests.OrangeHRM.ORM_Time_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

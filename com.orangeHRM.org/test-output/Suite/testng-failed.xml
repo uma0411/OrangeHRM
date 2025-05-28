@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Orangehrm(failed)">
+    <classes>
+      <class name="tests.OrangeHRM.ORM_Time_Test">
+        <methods>
+          <include name="employeename"/>
+          <include name="time"/>
+        </methods>
+      </class> <!-- tests.OrangeHRM.ORM_Time_Test -->
+      <class name="tests.OrangeHRM.ORM_Leave_Test">
+        <methods>
+          <include name="conformbutton"/>
+          <include name="entity"/>
+          <include name="addentitlements"/>
+          <include name="leaveperiod"/>
+          <include name="entitlementfield"/>
+          <include name="entitlements"/>
+          <include name="savebutton"/>
+          <include name="leavetype"/>
+        </methods>
+      </class> <!-- tests.OrangeHRM.ORM_Leave_Test -->
+    </classes>
+  </test> <!-- Orangehrm(failed) -->
+</suite> <!-- Failed suite [Suite] -->
