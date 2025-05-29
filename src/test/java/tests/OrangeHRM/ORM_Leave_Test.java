@@ -35,6 +35,7 @@ public class ORM_Leave_Test extends Generics {
 		driver.findElement(By.xpath("//*[text()='-- Select --']")).click();
 		List<WebElement> options = driver.findElements(By.xpath("//*[@role='option']"));
 		System.out.println(options.size());
+		System.out.println("tesct");
 	}
 
 	
